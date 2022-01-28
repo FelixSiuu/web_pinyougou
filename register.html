@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人註冊</title>
+    <!-- 引入CSS初始化樣式文件 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入favicon圖標 -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- 引入註冊頁面CSS -->
+    <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+    <div class="w">
+        <!-- 頭部區域模塊 -->
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt=""></a>
+            </div>
+        </header>
+        <!-- 註冊區域模塊 -->
+        <div class="registerarea">
+            <div class="registerarea-hd">
+                <h5>註冊新用戶</h5>
+                <div class="login">
+                    我有賬號 ，去<a href="#">登錄</a>
+                </div>
+            </div>
+            <div class="registerarea-bd">
+                <div class="reg-form">
+                    <form action="">
+                        <ul>
+                            <li><label for="text">手機號：</label><input type="text" id="text"><span class="error"><i
+                                        class="error_icon"></i>手機號碼格式不正確，請正確輸入</span>
+                            </li>
+                            <li><label for="text">短信驗證碼：</label><input type="text" id="text"><span class="success"><i
+                                        class="success_icon"></i>短信驗證碼格式正確</span>
+                            </li>
+                            <li><label for="pwd">登錄密碼：</label><input type="password" id="pwd"><span class="error"><i
+                                        class="error_icon"></i>密碼不少於6位，請重新輸入</span>
+                            </li>
+                            <li class="safe">
+                                安全程度 <em class="weak">弱</em><em class="normal">中</em><em class="strong">強</em>
+                            </li>
+                            <li><label for="pwd-again">確認密碼：</label><input type="password" id="pwd-again"><span
+                                    class="error"><i class="error_icon"></i>密碼不一致，請重新輸入</span>
+                            </li>
+                            <li class="agree">
+                                <input type="checkbox">同意協議並註冊 <a href="#">《知果用戶協議》</a>
+                            </li>
+                            <li class="submit">
+                                <input type="submit" value="完成註冊" class="button">
+                            </li>
+                        </ul>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer底部模塊 -->
+    <footer class="footer">
+        <div class="w">
+            <div class="mod_copyright">
+                <div class="links">
+                    <a href="#">關於我們</a>|<a href="#"> 聯繫我們</a>|<a href="#">聯繫客服</a>|<a href="#">商家入駐</a>|<a
+                        href="#">行銷中心</a>|<a href="#">手機品優購</a>|<a href="#">友情連結</a>|<a href="#">銷售聯盟</a>|<a
+                        href="#">品優購社區</a>|<a href="#">品優購公益</a>|<a href="#">English Site</a>|<a href="#">Contact Us</a>
+                </div>
+                <div class="copyright">
+                    地址：北京市昌平區建材城西路金燕龍辦公樓一層 郵編：100096 電話：400-618-4000 傳真：010-82935100 郵箱: zhanghj+itcast.cn<br>
+                    京ICP備08001421號京公網安備110108007702
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

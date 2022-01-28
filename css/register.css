@@ -1,0 +1,138 @@
+.w {
+    width: 1200px;
+    margin:0 auto;
+}
+header{
+    height: 84px;
+    border-bottom:2px solid #c81623;
+}
+.logo{
+    padding-top: 18px;
+}
+/* 註冊區域模塊 */
+.registerarea{
+    margin-top: 22px;
+    height: 520px;
+    border: solid 1px #dfdfdf;
+}
+.registerarea-hd{
+    height: 43px;
+    padding: 0 15px;
+    line-height: 43px;
+    background-color: #ececec;
+    border-bottom: solid 1px #dfdfdf;
+}
+.registerarea-hd h5{
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+.registerarea-hd .login{
+    float: right;
+    font-size: 14px;
+}
+.registerarea-hd .login a{
+    color: #c81623;
+}
+.reg-form{
+    width: 600px;
+    margin:50px auto;
+}
+.reg-form ul li label{
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.reg-form ul li .error{
+    color: #c81623;
+    font-size: 12px;
+}
+.success{
+    color: green;
+    font-size: 12px;
+}
+.reg-form ul li .error_icon,
+.success_icon{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top:-2px;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error_icon.png) no-repeat;
+}
+
+.success_icon{
+    background: url(../images/success_icon.png) no-repeat; 
+}
+.reg-form ul li{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.reg-form ul li input{
+    margin-right: 10px;
+    width: 242px;
+    height: 37px;
+    border: 1px solid #000;
+}
+.reg-form ul .safe{
+    padding-left: 157px;
+    color: #b3b3b3;
+}
+.safe em{
+    margin: 0 1px;
+    padding: 0 12px;
+    font-size: 12px;
+    color: #fff;
+}
+.safe .weak{
+    background-color: #e00900;
+}
+.safe .normal{
+    background-color: #39ba36;
+}
+.safe .strong{
+    background-color: #f99100;
+}
+.reg-form ul .agree{
+    margin-left: 95px;
+}
+.reg-form ul .agree input{
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+}
+.reg-form ul .agree a{
+    color: #49aeeb;
+}
+.submit .button{
+    margin-left: 108px;
+    margin-top: 30px;
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    color: #fff;
+}
+
+
+
+
+/* footer底部模塊 */
+.footer{
+    height: 120px;
+    margin-top: 38px;
+    padding-top: 30px;
+}
+.mod_copyright{
+    padding-top: 20px;
+    text-align: center;
+}
+.links{
+    margin-bottom: 15px;
+}
+.links a{
+    margin: 0 10px;
+}
+.copyright{
+    line-height: 20px;
+}
